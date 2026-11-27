@@ -29,6 +29,8 @@
                 app.UseDeveloperExceptionPage();
             }
 
+            app.AddExceptionHandling();
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
